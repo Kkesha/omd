@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[81]:
-
-
 import csv
 
 def print_hierarchy_of_command ():
@@ -70,16 +64,3 @@ elif user_choice == '3':
     save_consolidated_report()
 else:
     print('Вы выбрали что-то другое')
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
