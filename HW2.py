@@ -55,7 +55,6 @@ def save_consolidated_report ():
     
 print('Выберите: 1 - получить иерархию команд\n2 - получить сводный отчет\n3 - сохранить сводный отчет в файл')
 user_choice = input()
-
 if user_choice == '1':
     print_hierarchy_of_command ()
 elif user_choice == '2':
