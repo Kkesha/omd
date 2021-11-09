@@ -39,8 +39,8 @@ class Advert(ColorizeMixin, AccessByDot):
         if 'price' in mapping:
             if mapping['price'] < 0:
                 raise ValueError('price must be >= 0')
-            else:
-                self.price = 0
+        else:
+            self.price = 0
         super(Advert, self).__init__(mapping)
 
     def __repr__(self):
