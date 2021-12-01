@@ -23,6 +23,7 @@ def test_year_exception():
         with pytest.raises(ValueError):
             _ = what_is_year_now()
 
+            
 if __name__ == '__main__':
     year = what_is_year_now()
     exp_year = 2019
